@@ -1,0 +1,30 @@
+# ModelSim / Questa
+work/
+transcript
+*.wlf
+*.mti
+*.mpf
+*.vstf
+# Quartus
+db/
+incremental_db/
+output_files/
+simulation/
+*.qws
+*.sof
+*.pof
+*.rpt
+*.summary
+*.smsg
+*.done
+# GHDL / verification outputs
+verification/build/
+verification/runs/
+verification/tests/
+verification/systests/
+verification/results_*.json
+verification/results_*.txt
+verification/simlib/*.cf
+*.o
+*.cf
+__pycache__/
